@@ -2,7 +2,8 @@
 
 :root {
     --white: #F9FAF8;
-    --grey: #E5E7EB;
+    --grey: grey;
+    --light-grey: #E5E7EB;
     --dark: #1F2937;
     --blue: #3882F6;
 }
@@ -28,7 +29,7 @@ body {
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     color: var(--white);
 }
 
@@ -39,6 +40,55 @@ body {
 }
 
 a.nav-list-items {
-    color: var(--grey);
+    color: var(--light-grey);
+    font-size: 18px;
     text-decoration: none;
+}
+
+.hero-section {
+    background-color: var(--dark);
+    padding: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--white);
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: var(--light-grey);
+}
+
+.left-container, .right-container {
+    width: 41.5%;
+    height: 34.5%;
+}
+
+.left-container {
+    padding-right: 64px;
+}
+
+.right-container {
+    color: var(--light-grey);
+    background-color: var(--grey);
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-1 {
+    background: var(--blue);
+    color: var(--light-grey);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
 }
