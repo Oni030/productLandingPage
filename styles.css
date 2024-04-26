@@ -92,3 +92,41 @@ a.nav-list-items {
     border-radius: 8px;
     border: none;
 }
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--dark);
+    margin: 40px;
+}
+
+.card-container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 120px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--grey)
+}
+
+.illustration {
+    width: 160px;
+    height: 160px;
+    border: 5px solid var(--blue);
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
