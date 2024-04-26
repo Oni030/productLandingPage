@@ -82,7 +82,7 @@ a.nav-list-items {
     align-items: center;
 }
 
-.button-1 {
+.button1, .button2 {
     background: var(--blue);
     color: var(--light-grey);
     font-size: 18px;
@@ -157,4 +157,26 @@ a.nav-list-items {
     font-weight: 700;
     color: var(--dark);
     margin-right: 32px;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--blue);
+    margin: 100px;
+    width: 1000px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.button2 {
+    height: 40px;
+    border: 2px solid var(--white);
 }
