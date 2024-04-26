@@ -130,3 +130,31 @@ a.nav-list-items {
     border-radius: 16px;
     margin-bottom: 8px;
 }
+
+.quote-section {
+    background-color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    margin: 110px;
+    max-width: 790px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--dark);
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-right: 32px;
+}
