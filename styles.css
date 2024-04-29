@@ -194,3 +194,13 @@ a.nav-list-items {
 .cta-call {
     color: var(--light-grey);
 }
+
+footer {
+    padding: 40px;
+    background-color: var(--dark);
+    color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
